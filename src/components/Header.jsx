@@ -15,20 +15,35 @@ const Header = () => {
         </div>
       </div>
       <div className="">
-        <ul className="pr-5 font-medium font-lexend text-base ">
-          <a href="#" className="pr-5 hover:text-[#8b867a]">
+        <ul className="mr-5 pb-1 font-medium font-lexend text-base ">
+          <a
+            href="#"
+            className="mr-5 pb-1 hover:text-[#615e58] hover:border-b border-[#502d16ff]"
+          >
             Ingresar
           </a>
-          <a href="#" className="pr-5 hover:text-[#8b867a]">
+          <a
+            href="#"
+            className="mr-5 pb-1 hover:text-[#615e58]  hover:border-b border-[#502d16ff]"
+          >
             Proceso
           </a>
-          <a href="#" className="pr-5 hover:text-[#8b867a]">
+          <a
+            href="#"
+            className="mr-5 pb-1 hover:text-[#615e58] hover:border-b border-[#502d16ff]"
+          >
             Referencias
           </a>
-          <a href="#" className="pr-5 hover:text-[#8b867a]">
+          <a
+            href="#"
+            className="mr-5 pb-1 hover:text-[#615e58] hover:border-b border-[#502d16ff]"
+          >
             Descripcion
           </a>
-          <a href="#" className="pr-5 hover:text-[#8b867a]">
+          <a
+            href="#"
+            className="mr-5 pb-1 hover:text-[#615e58] hover:border-b border-[#502d16ff]"
+          >
             Contacto
           </a>
         </ul>
