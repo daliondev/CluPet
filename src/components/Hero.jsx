@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="grid grid-cols-2 h-screen">
+    <div className="grid grid-cols-2">
       <div className=""></div>
       <div className="grid place-items-center h-screen mb-24">
         <div className="bg-[#ffdea4] rounded-2xl mb-[20%] ">
