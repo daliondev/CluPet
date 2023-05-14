@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="flex items-center justify-between ">
       <div className="flex items-center h-20 mt-2">
-        <img src={logo} className="w-20 ml-9 mt-2" />
+        <img src={logo} className="w-16 mr-2 ml-9 mt-2" />
         <div>
           <p
             className="self-start font-lexend text-5xl font-thin "
@@ -23,6 +23,12 @@ const Header = () => {
             Ingresar
           </a>
           <a
+            href="#descripcion"
+            className="mr-5 pb-1 hover:text-[#615e58] hover:border-b border-[#502d16ff]"
+          >
+            Descripcion
+          </a>
+          <a
             href="#"
             className="mr-5 pb-1 hover:text-[#615e58]  hover:border-b border-[#502d16ff]"
           >
@@ -33,12 +39,6 @@ const Header = () => {
             className="mr-5 pb-1 hover:text-[#615e58] hover:border-b border-[#502d16ff]"
           >
             Referencias
-          </a>
-          <a
-            href="#"
-            className="mr-5 pb-1 hover:text-[#615e58] hover:border-b border-[#502d16ff]"
-          >
-            Descripcion
           </a>
           <a
             href="#"
