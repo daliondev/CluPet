@@ -4,13 +4,25 @@
 @tailwind components;
 @tailwind utilities;
 
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(47, 47, 47);
+    border-radius: 5px;
+}
+
 body {
+    background-color: #ffefd2ff;
+}
+
+#top-section {
     background-image: url("./assets/HeroBg.svg");
     height: 1800px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-color: #ffefd2ff;
-
 }
-
