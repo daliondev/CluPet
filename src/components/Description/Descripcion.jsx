@@ -9,7 +9,7 @@ import Card from "./components/CardDescription"
 const Descripcion = () => {
   return (
     <div
-      className="sm:grid sm:place-items-center h-screen grid grid-cols-3 grid-rows-2 mt-5 gap-5  m-8"
+      className="sm:grid sm:place-items-center h-screen  sm:grid-cols-3 sm:grid-rows-2 mt-5 gap-5 m-8 mb-10"
       id="Descripcion"
     >
       <Card
