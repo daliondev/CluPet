@@ -1,7 +1,7 @@
 import "./App.css"
-import Header from "./components/Header"
-import Hero from "./components/hero"
-import Descripcion from "./components/Descripcion"
+import Header from "./components/Header/Header"
+import Hero from "./components/Hero/Hero"
+import Descripcion from "./components/Description/Descripcion"
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <section id="top-section">
           <Header />
           <Hero />
-          <Descripcion id="#descripcion" />
+          <Descripcion />
         </section>
       </main>
     </>
