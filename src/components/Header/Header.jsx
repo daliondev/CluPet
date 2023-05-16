@@ -1,5 +1,6 @@
 import logo from "../../assets/Logo.svg"
 import navlinks from "../../constants/navlinks.js"
+import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
@@ -18,13 +19,13 @@ const Header = () => {
       <div className="sm:flex justify-between items-center hidden">
         <ul className="mr-5 pb-1 font-medium font-lexend text-base  ">
           {navlinks.map((navlink, index) => (
-            <a
-              href={index != 1 ? "/" + navlink : "#" + navlink}
+            <Link
+              to={index != 1 ? "/" + navlink : "#" + navlink}
               className="mr-5 pb-1 hover:text-[#615e58] hover:border-b border-[#502d16ff]"
               key={index}
             >
               {navlink}
-            </a>
+            </Link>
           ))}
         </ul>
       </div>
