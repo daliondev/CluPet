@@ -7,6 +7,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Inicio />} />
+        <Route
+          path="/ingresar"
+          element={<h1 className="text-center mt-[25%] font-bold">INGRESAR</h1>}
+        />
       </Routes>
     </BrowserRouter>
   )
