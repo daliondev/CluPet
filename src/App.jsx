@@ -1,5 +1,6 @@
 import "./App.css"
 import Inicio from "./routes/inicio"
+import NotFoud from "./routes/404"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 function App() {
@@ -7,10 +8,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Inicio />} />
-        <Route
-          path="/ingresar"
-          element={<h1 className="text-center mt-[25%] font-bold">INGRESAR</h1>}
-        />
+        <Route path="*" element={<NotFoud />} />
       </Routes>
     </BrowserRouter>
   )
