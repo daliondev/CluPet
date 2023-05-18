@@ -1,9 +1,3 @@
-const navlinks = [
-  "Ingresar",
-  "Descripcion",
-  "Proceso",
-  "Referencias",
-  "Contacto",
-]
+const navlinks = ["Ingresar", "Contacto", "Referencias", "Proceso"]
 
 export default navlinks
