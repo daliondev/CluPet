@@ -1,9 +1,9 @@
-import rabbit_second from "../../../public/assets/Animals/rabbit_2.svg"
-import fox from "../../../public/assets/Animals/fox.svg"
-import rabbit from "../../../public/assets/Animals/rabbit.svg"
-import bear from "../../../public/assets/Animals/bear.svg"
-import bird from "../../../public/assets/Animals/bird.svg"
-import erizo from "../../../public/assets/Animals/erizo.svg"
+import rabbit_second from "../../assets/Animals/rabbit_2.svg"
+import fox from "../../assets/Animals/fox.svg"
+import rabbit from "../../assets/Animals/rabbit.svg"
+import bear from "../../assets/Animals/bear.svg"
+import bird from "../../assets/Animals/bird.svg"
+import erizo from "../../assets/Animals/erizo.svg"
 import Card from "./components/CardDescription"
 
 const Descripcion = () => {
