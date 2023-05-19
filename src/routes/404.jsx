@@ -1,16 +1,20 @@
-import Header from "../components/Header/Header"
+import { Link } from "react-router-dom"
 
 const NotFound = () => {
   return (
     <>
-      <Header />
-      <div className="grid grid-row-2 place-items-center m-[15%]">
+      <div className="text-center flex flex-col min-h-screen justify-center items-center">
         <div>
-          <h1 className="text-9xl">404</h1>
+          <h1 className="text-8xl font-bold">404</h1>
+          <p className="text-xl">Page not found</p>
+          <h3>The page you are looking for doesnt exist.</h3>
         </div>
-        <div>
-          <h2 className="text-3xl">Not Found</h2>
-        </div>
+        <Link
+          className="bg-black text-white rounded-lg py-5 px-10 mt-5 font-thin"
+          to="/"
+        >
+          Volver al inicio
+        </Link>
       </div>
     </>
   )
