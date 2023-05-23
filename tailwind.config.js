@@ -7,6 +7,7 @@ export default {
         roboto: ["Roboto", "sans-serif"],
         lexend: ["'Lexend Deca', sans-serif"],
         poppins: ["Poppins", "sans-serif"],
+        Titillium: ["Titillium Web", "sans-serif"],
       },
       colors: {
         brown: ["#502d16ff"],
