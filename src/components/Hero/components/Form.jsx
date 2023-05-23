@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const Form = () => {
   return (
     <form className="space-y-4 md:space-y-6" action="#">
@@ -46,9 +48,9 @@ const Form = () => {
       </button>
       <p className="text-sm font-light text-[#502d16ff] flex justify-between font-lexend">
         ¿Ya tienes una cuenta?
-        <a href="#" className="font-roboto">
+        <Link to="/ingresar" className="font-roboto">
           Click Aqui
-        </a>
+        </Link>
       </p>
     </form>
   )
